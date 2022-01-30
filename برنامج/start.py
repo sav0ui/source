@@ -64,26 +64,26 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ 🎞 اضَِٖـفٍُ آلٓبَٰـۄټِٖ إلٓيَ مج ـمۄعَِٰټِٖـڪ 🎞 ➕",
+                        "➕ 🎞 اضف البـوت لمجمـوعتك 🎞 ➕",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("🎧 ڪيَفٍُيَـة آس๋͜ټِٖخدآم هذآ آلٓرۄبَٰـۄټِٖ 🎧", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("🎧 كيفـيه استخـدام البوت🎧", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("📚 آلٓأۄآمــر 📚", callback_data="cbcmds"),
-                    InlineKeyboardButton("👨‍💻 لٓلٓأس๋͜‏ټِٖـفٍُس๋͜‏ـآࢪآټِٖ 👩‍💻", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("👨‍💻 للاستفسـار", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🎥 ج ـرۄبَٰ آلٓدعَِٰـم 🎥", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "🎥 جـروب الدعم 🎥", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "📣 قٍُنـآة آلٓس๋͜‏ـۄࢪس๋͜‏  📣", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "📣 قنـاه البـوت  📣", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "♔↯ ᴅᴇᴠ • ʙᴀʀʟᴏ ↯♔", url="https://t.me/bar_lo0o0"
+                        "♔↯ مبـرمج السـورس↯♔", url="https://t.me/s_a_s_a_3li"
                     )
                 ],
             ]
